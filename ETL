@@ -1,0 +1,3 @@
+If you have a string in a column and you want to slice it like a list(row level):
+
+df.<column> = df.<column>.str[] # note this will make changes to the existing dataframe
